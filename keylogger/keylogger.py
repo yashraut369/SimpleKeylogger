@@ -5,7 +5,6 @@ SimpleKeylogger - Basic keylogger implementation
 Author: Yash (Popeye) Raut
 GitHub: https://github.com/yashraut369
 """
-
 import time
 import datetime
 import os
