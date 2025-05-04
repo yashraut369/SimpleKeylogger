@@ -5,7 +5,6 @@ Utility functions for SimpleKeylogger
 Author: Yash (Popeye) Raut
 GitHub: https://github.com/yashraut369
 """
-
 import datetime
 import os
 from pynput import keyboard
