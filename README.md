@@ -1,20 +1,22 @@
-# Updated Repository Structure
+# SimpleKeylogger
 
-Here's the correct directory structure for the SimpleKeylogger project:
+A basic keylogger program for educational purposes only. This project is meant to demonstrate how keylogging works and should only be used on systems you own or have explicit permission to monitor.
+
+## Repository Structure
 
 ```
 SimpleKeylogger/
 ├── LICENSE
 ├── README.md
 ├── requirements.txt
-├── main.py
-└── keylogger/
-    ├── __init__.py
-    ├── keylogger.py
-    └── utils.py
+├── keylogger/
+│   ├── __init__.py
+│   ├── keylogger.py
+│   └── utils.py
+└── main.py
 ```
 
-## Setup Instructions
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -27,12 +29,31 @@ cd SimpleKeylogger
 pip install -r requirements.txt
 ```
 
-3. Run the keylogger:
+## Usage
+
+Run the keylogger:
 ```bash
 python main.py
 ```
 
-To run with custom options:
-```bash
-python main.py --output logs/keystrokes.txt --hidden
-```
+By default, the keylogger will save logged keystrokes to a file named `keylog.txt` in the current directory.
+
+## Features
+
+- Records keyboard input
+- Logs keys with timestamps
+- Saves logs to a file
+- Simple and easy to understand
+
+## Disclaimer
+
+This software is provided for educational purposes only. Any use of this code for malicious purposes is prohibited. The author (Yash "Popeye" Raut) is not responsible for any misuse of this software.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Author
+
+- Yash (Popeye) Raut
+- GitHub: [yashraut369](https://github.com/yashraut369)
